@@ -1,0 +1,9 @@
+target/
+.git/
+.vscode/
+.idea/
+.env
+*.log
+tmp/
+.mvn-cache/
+database/library_test.dump
