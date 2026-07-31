@@ -172,6 +172,7 @@ POST   /api/libros/{libroId}/ejemplares
 GET    /api/libros/{libroId}/ejemplares
 GET    /api/libros/{libroId}/ejemplares/disponibles
 GET    /api/libros/isbn/{isbn}/ejemplares/disponibles
+GET /api/ejemplares/{id}
 DELETE /api/ejemplares/{id}
 ```
 
