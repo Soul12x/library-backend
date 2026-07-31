@@ -57,6 +57,22 @@ docker compose down
 
 ## Variables de entorno
 
+Ejemplo del .env:
+
+```env
+# MySQL container configuration
+MYSQL_DATABASE=library_test
+MYSQL_ROOT_PASSWORD=12345
+DB_PORT=3306
+BACKEND_PORT=8080
+
+# Spring Boot datasource configuration
+DB_URI=jdbc:mysql://localhost:3306/library_test
+DB_USER=library_user
+DB_PASSWORD=12345
+DB_DRIVER=com.mysql.cj.jdbc.Driver
+```
+
 | Variable | Descripción |
 | --- | --- |
 | `MYSQL_DATABASE` | Nombre de la base de datos MySQL |
